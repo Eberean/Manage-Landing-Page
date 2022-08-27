@@ -399,6 +399,13 @@ footer {
     display: none;
   }
 
+  header::before {
+    width: 60vw;
+    height: 26rem;
+    top: -4rem;
+    right: -4rem;
+  }
+
   .flex-text {
     width: 50%;
   }
@@ -438,5 +445,9 @@ footer {
   .grid-text h3 {
     background-color: hsl(13, 100%, 96%);
     font-size: 1.7rem;
+  }
+
+  .grid__text {
+    margin: 2rem  0;
   }
 }
